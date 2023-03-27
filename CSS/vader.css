@@ -1,5 +1,8 @@
 body {
 	margin: 0;
+	font-family: Helvetica, Ariel, sans-serif;
+	font-size: 20px;
+	line-height: 30px;
 }
 
 header {
@@ -9,9 +12,44 @@ header {
 
 header h1 {
 	color: white;
+
 }
 
 header img {
 	border-radius: 150px;
 	width: 300px;
+	border: 10px solid white;
+
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 20px;
+	text-align: center;
+}
+
+main img {
+	max-width: 100%;
+}
+
+h2 {
+	font-size: 30px;
+	color: salmon;
+}
+
+a{
+color: salmon;
+
+}
+
+a:hover {
+	color: white;
+	background-color: darkred;
+}
+
+footer {
+	background-color: lightcoral;
+	text-align: center;
+	color: white;
 }
